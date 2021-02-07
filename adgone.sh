@@ -16,7 +16,7 @@ curl -O https://raw.githubusercontent.com/OBITORASU/adgone/main/hosts -s
 cat hosts >> /etc/hosts
 echo "Cleaning up..."
 rm hosts
-echo "All done enjoy an add free day!"
+echo "All done enjoy an ad free day!"
 sleep 1
 exit 0
 
