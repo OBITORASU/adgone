@@ -9,7 +9,7 @@ Make sure you have curl installed on your system before using the script.
 This script must run with super user privileges to work.
 
 ```
-curl -o https://raw.githubusercontent.com/OBITORASU/adgone/main/adgone.sh -s
+curl -O https://raw.githubusercontent.com/OBITORASU/adgone/main/adgone.sh -s
 
 chmod 755 adgone.sh
 
