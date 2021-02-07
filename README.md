@@ -19,4 +19,4 @@ sudo ./addgone.sh
 ```
 ## Shoutout to the hero
 
-Credits to [StevenBlack](https://github.com/StevenBlack/hosts) for providing the awesome well curated host file that this script uses to block ads.
+Credits to [StevenBlack](https://github.com/StevenBlack/hosts) for providing the awesome well curated hosts file that this script uses to block ads.
