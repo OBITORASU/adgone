@@ -15,7 +15,7 @@ cd adgone
 
 chmod 755 adgone.sh
 
-sudo ./addgone.sh 
+sudo ./adgone.sh 
 ```
 ## Shoutout to the hero
 
