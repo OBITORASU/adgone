@@ -5,12 +5,6 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-command -v curl >/dev/null 2>&1
-if [[ $? -ne 0 ]]; then
-   echo "Please install curl on your system."
-   exit 1
-fi
-
 echo "Modifying hosts file..."
 curl -O https://raw.githubusercontent.com/OBITORASU/adgone/main/hosts -s
 cat hosts >> /etc/hosts
