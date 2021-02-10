@@ -10,7 +10,7 @@ mkdir .adgonecache 2>/dev/null
 cd .adgonecache
 
 # Fetch updated blocklists and mkae a single uniquely sorted blocklist from all of them 
-echo "Fetching updates and generating list"
+echo "Fetching updates and generating list..."
 
 curl -o steven -s https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
 sed -i -e '1,30d' -e 's/^[ \t]*//' -e '/^#/d' -e '/^$/d' steven   
