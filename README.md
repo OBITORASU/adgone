@@ -15,7 +15,7 @@ chmod +x adgone.sh
 
 sudo ./adgone.sh 
 ```
-It is highly recommended that you keep this script running as long as you want to block ads. Pressing q in the terminal window where the script is running should terminate the script and restore your hosts file back to its original state. In case you mistakenly closed your terminal windows, to restore your hosts file just do a clean re-run of the script and quit using q.
+It is highly recommended that you keep this script running as long as you want to block ads. Pressing `q` in the terminal window where the script is running should terminate the script and restore your hosts file back to its original state. In case you mistakenly closed your terminal windows, to restore your hosts file just do a clean re-run of the script and quit using `q`.
 
 ## Sources used:
 
