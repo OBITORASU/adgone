@@ -2,7 +2,7 @@
 A simple bash script to implement a hosts based systemwide adblock.
 
 ## How it works?
-```adgone``` modifies the ```/etc/hosts``` file and redirects all the spammy website domain name resolution to ```0.0.0.0``` (non-routable address), this easily circumvents most of the ads you might come across the internet, on a systemwide level.
+```adgone``` modifies the ```/etc/hosts``` file and redirects all the spammy website domain name resolution to ```0.0.0.0``` (non-routable address), this easily circumvents most of the ads you might come across the internet, on a systemwide level. The script currently uses 4 sources which I have credited below, it fetches the latest content from the sources, modifies/sanitizes the content of the fetched lists and generates a custom list which it then uses to modify ```/etc/hosts```. This means that this script updates its source lists on every subsequent re-run fetching you the latest ad domains to be blocked on the go.
 
 ## How to use?
 Make sure you have curl installed on your system before using the script.
