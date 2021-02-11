@@ -61,6 +61,7 @@ fi
 done
 
 # Restore hosts file to its original state and remove the cache directory
+echo
 echo "${green}[+] Cleaning up!"
 mv hosts /etc/hosts
 cd ..
