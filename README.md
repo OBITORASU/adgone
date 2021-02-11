@@ -1,5 +1,5 @@
 # adgone
-A simple bash script to implement a DNS level systemwide adblock.
+A simple bash script to implement a hosts based systemwide adblock.
 
 ## How it works?
 ```adgone``` modifies the ```/etc/hosts``` file and redirects all the spammy website domain name resolution to ```0.0.0.0``` (non-routable address), this easily circumvents most of the ads you might come across the internet, on a systemwide level.
