@@ -46,13 +46,13 @@ sleep 1
 # Remove uneeded files for better memory efficiency
 rm steven curben pgl adaway newhosts
 
+# Prompt user to quit or keep the script running
 echo "${green}[+] Modifying your hosts file. Enjoy an ad free day now!"
 echo
 echo "${yellow}[!] Please don't close this tab else you might have to re-run the script cleanly to restore your hosts file."
 echo "${yellow}[!] You can press q to quit and your hosts file will be resotred."
 echo
 
-# Prompt user to quit or keep the script running
 while read -rs -n 1 key
 do
 if [[ $key == "q" ]];
