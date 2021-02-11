@@ -42,13 +42,12 @@ echo
 echo "${green}[+] Modifying hosts file..."
 cat newhosts >> /etc/hosts
 sleep 1
-echo
 
 # Remove uneeded files for better memory efficiency
 rm steven curben pgl adaway newhosts
 
 # Prompt user to quit or keep the script running
-echo "${green}[+] Modifying your hosts file. Enjoy an ad free day now!"
+echo "${green}[+] Modification successful. Enjoy an ad free day now!"
 echo
 echo "${yellow}[!] Please don't close this tab else you might have to re-run the script cleanly to restore your hosts file."
 echo "${yellow}[!] You can press q to quit and your hosts file will be resotred."
