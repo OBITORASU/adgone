@@ -8,6 +8,7 @@ reset=`tput sgr0`
 
 # Check for root privileges
 if [[ $EUID -ne 0 ]]; then
+   echo
    echo "${red}[-] This script must be run as root!" 
    exit 1
 fi
@@ -17,6 +18,7 @@ mkdir ~/.adgonecache 2>/dev/null
 cd ~/.adgonecache
 
 # Fetch updated blocklists and mkae a single uniquely sorted blocklist from all of them 
+echo
 echo "${green}[+] Fetching updates and generating list..."
 
 curl -o steven -s https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
