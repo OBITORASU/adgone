@@ -42,6 +42,7 @@ echo
 echo "${green}[+] Modifying hosts file..."
 cat newhosts >> /etc/hosts
 sleep 1
+echo 
 
 # Remove uneeded files for better memory efficiency
 rm steven curben pgl adaway newhosts
