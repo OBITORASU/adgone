@@ -11,7 +11,7 @@ This script must run with super user privileges to work.
 ```
 curl -O -s https://raw.githubusercontent.com/OBITORASU/adgone/main/adgone.sh 
 
-chmod 755 adgone.sh
+chmod +x adgone.sh
 
 sudo ./adgone.sh 
 ```
