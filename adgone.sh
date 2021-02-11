@@ -53,7 +53,6 @@ echo
 echo "${yellow}[!] Please don't close this tab else you might have to re-run the script cleanly to restore your hosts file."
 echo "${yellow}[!] You can press q to quit and your hosts file will be resotred."
 echo
-
 while read -rs -n 1 key
 do
 if [[ $key == "q" ]];
