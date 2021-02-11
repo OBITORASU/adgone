@@ -24,3 +24,6 @@ It is highly recommended that you keep this script running as long as you want t
 - [pgl@yolo.org](https://pgl.yoyo.org/adservers/serverlist.php\?hostformat\=hosts\&showintro\=0\&mimetype\=plaintext)
 - [AdAway](https://adaway.org/hosts.txt)
 
+**NOTE**
+
+This method is not fullproof as new ad domains (not present in the source lists) might pop up from time to time.
