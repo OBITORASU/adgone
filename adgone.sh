@@ -40,9 +40,9 @@ sed -i '/0.0.0.0/d' hosts
 # Modify the hosts file to start blocking ads
 echo
 echo "${green}[+] Modifying hosts file..."
-echo
 cat newhosts >> /etc/hosts
 sleep 1
+echo
 
 # Remove uneeded files for better memory efficiency
 rm steven curben pgl adaway newhosts
@@ -52,7 +52,6 @@ echo "${green}[+] Modifying your hosts file. Enjoy an ad free day now!"
 echo
 echo "${yellow}[!] Please don't close this tab else you might have to re-run the script cleanly to restore your hosts file."
 echo "${yellow}[!] You can press q to quit and your hosts file will be resotred."
-echo
 while read -rs -n 1 key
 do
 if [[ $key == "q" ]];
