@@ -6,6 +6,7 @@ red=`tput setaf 160`
 green=`tput setaf 84`
 reset=`tput sgr0`
 
+# Check for root privileges
 if [[ $EUID -ne 0 ]]; then
    echo "${red}[-] This script must be run as root!" 
    exit 1
