@@ -9,7 +9,7 @@ reset=`tput sgr0`
 # Check for root privileges
 if [[ $EUID -ne 0 ]]; then
    echo
-   echo "${red}[-] This script must be run as root!${reset}" 
+   echo "${red}[-] This script must be run as root!${reset}" >&2
    exit 1
 fi
 
