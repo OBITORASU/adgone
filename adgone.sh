@@ -64,7 +64,7 @@ done
 
 # Restore hosts file to its original state and remove the cache directory
 echo
-echo "${green}[+] Cleaning up!"
+echo "${green}[+] Cleaning up and restoring hosts file!"
 mv hosts /etc/hosts
 cd ..
 rm -r ~/.adgonecache
