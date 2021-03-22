@@ -50,7 +50,7 @@ echo
 rm steven curben pgl adaway newhosts
 
 # Prompt user to quit or keep the script running
-echo "${green}[+] Modification successful. Enjoy an ad free day now!"
+echo "${green}[+] Modification successful. Enjoy an ad free day."
 echo
 echo "${yellow}[!] Please don't close this tab else you might have to re-run the script cleanly to restore your hosts file."
 echo "${yellow}[!] You can press q to quit and your hosts file will be resotred."
