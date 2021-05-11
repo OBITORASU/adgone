@@ -67,6 +67,7 @@ echo
 echo "${green}[+] Cleaning up and restoring hosts file!"
 mv hosts /etc/hosts
 cd ..
+# Remove the cache folder 
 rm -r ~/.adgonecache
 sleep 1
 echo 
