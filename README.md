@@ -1,5 +1,5 @@
 # adgone
-A bash script to implement a host based systemwide adblock.
+A bash script to implement a host based systemwide adblock by modifying the `/etc/hosts` file on UNIX like systems.
 This script was heavily inspired by the [AdAway](https://github.com/AdAway/AdAway) mobile app, do check it out.
 
 ## How it works?
