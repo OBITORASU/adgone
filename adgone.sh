@@ -6,7 +6,7 @@ red=`tput setaf 160`
 green=`tput setaf 84`
 reset=`tput sgr0`
 
-# Check for root privileges
+# Check if script is running with root privileges
 if [[ $EUID -ne 0 ]]; then
    echo
    echo "${red}[-] This script must be run with root privileges!${reset}" >&2
@@ -17,7 +17,7 @@ fi
 mkdir ~/.adgonecache 2>/dev/null
 cd ~/.adgonecache
 
-# Fetch updated blocklists and mkae a single uniquely sorted blocklist from all of them 
+# Fetch updated blocklists and make a single uniquely sorted blocklist from all of them 
 echo
 echo "${green}[+] Fetching updates and generating list..."
 
