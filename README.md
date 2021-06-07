@@ -7,7 +7,7 @@ This script was heavily inspired by the [AdAway](https://github.com/AdAway/AdAwa
 
 ## How to use?
 Make sure you have `curl` installed on your system before using the script. If it is not installed, use `apt install curl | pacman -S curl | yum install curl` or any relevant command for your respective package manager to install it.
-This script must run with super user privileges to work.
+This script must run with root privileges to work, so please use sudo while running it.
 
 ```
 curl -O -s https://raw.githubusercontent.com/OBITORASU/adgone/main/adgone.sh 
