@@ -10,13 +10,21 @@ Make sure you have `curl` installed on your system before using the script. If i
 This script must run with root privileges to work, so please use sudo while running it.
 
 ```
-curl -O -s https://raw.githubusercontent.com/OBITORASU/adgone/main/adgone.sh 
+# git clone the project
+git clone https://github.com/OBITORASU/adgone.git
 
-chmod +x adgone.sh
+# cd into scripts folder
+cd adgone
 
+# Give the scripts execute permission
+chmod +x adgone.sh restore.sh
+
+# To modify hosts file
 sudo ./adgone.sh 
+
+# To restore hosts file back to original after modifications
+sudo ./restore.sh
 ```
-It is highly recommended that you keep this script running as long as you want to block ads. Pressing `q` in the terminal window where the script is running should terminate the script and restore your hosts file back to its original state. In case you mistakenly closed your terminal windows, to restore your hosts file just do a clean re-run of the script and quit using `q`.
 
 ## Sources used:
 
