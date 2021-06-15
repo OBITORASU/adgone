@@ -14,7 +14,6 @@ green=`tput setaf 84`
 reset=`tput sgr0`
 
 # Restore hosts file to its original state and remove the cache directory
-
 cd ~/.adgonecache 2>/dev/null
 if [[ $? -ne 0 ]]; then
    echo
