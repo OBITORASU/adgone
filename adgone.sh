@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Define colors and reset
-yellow=`tput setaf 226`
 red=`tput setaf 160`
 green=`tput setaf 84`
 reset=`tput sgr0`
