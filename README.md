@@ -16,9 +16,6 @@ git clone https://github.com/OBITORASU/adgone.git
 # cd into scripts folder
 cd adgone
 
-# Give the scripts execute permission
-chmod +x adgone.sh restore.sh
-
 # To modify hosts file
 sudo ./adgone.sh 
 
