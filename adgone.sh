@@ -1,17 +1,17 @@
 #!/bin/bash
 
+# Define colors and reset
+yellow=`tput setaf 226`
+red=`tput setaf 160`
+green=`tput setaf 84`
+reset=`tput sgr0`
+
 # Check if script is running with root privileges
 if [[ $EUID -ne 0 ]]; then
    echo
    echo "${red}[-] This script must be run with root privileges!${reset}" >&2
    exit 1
 fi
-
-# Define colors and reset
-yellow=`tput setaf 226`
-red=`tput setaf 160`
-green=`tput setaf 84`
-reset=`tput sgr0`
 
 # Check for curl
 which curl >/dev/null 2>&1
