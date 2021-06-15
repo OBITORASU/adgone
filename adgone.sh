@@ -13,6 +13,14 @@ red=`tput setaf 160`
 green=`tput setaf 84`
 reset=`tput sgr0`
 
+# Check for curl
+which curl >/dev/null 2>&1
+if [[ $? -ne 0 ]]; then
+   echo
+   echo "${red}[-] Please install curl on this system for this script to work.${reset}" >&2
+   exit 1
+fi
+
 # Make a cache dir for storing cached data and cd into it
 mkdir ~/.adgonecache 2>/dev/null
 cd ~/.adgonecache
