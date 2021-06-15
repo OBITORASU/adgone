@@ -12,12 +12,13 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-# Restore hosts file to its original state and remove the cache directory
+# If .adgonecache doesn't exist then exit gracefully without the need of any operation
 cd ~/.adgonecache 2>/dev/null
 if [[ $? -ne 0 ]]; then
    echo
    echo "${green}[+] Hosts file was not modified by a previous run. Skipping restoration.${reset}"
    exit 0
+# Restore hosts file to its original state and remove the cache directory
 else
    echo "${green}[+] Cleaning up and restoring hosts file!"
    mv hosts /etc/hosts
