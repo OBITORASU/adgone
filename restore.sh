@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-# If .adgonecache doesn't exist then exit gracefully without the need of any operation
+# If .adgonecache doesn't exist then exit gracefully without doing anything since script hasn't modified anything previously
 cd ~/.adgonecache 2>/dev/null
 if [[ $? -ne 0 ]]; then
    echo
