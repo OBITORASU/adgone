@@ -26,7 +26,7 @@ cd ~/.adgonecache
 
 # Fetch updated blocklists and make a single uniquely sorted blocklist from all of them
 echo
-echo "${green}[+] Fetching updates and generating list..."
+echo "${green}[+] Fetching updates and generating block list..."
 
 curl -o steven -s https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
 sed -i -e '1,30d' -e 's/^[ \t]*//' -e '/^#/d' -e '/^$/d' steven
